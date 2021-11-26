@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Yecas
  */
 @RestController
-@RequestMapping("user")
+@RequestMapping("/api/user")
 @CrossOrigin(origins="*")
 public class UserController {
    /**
